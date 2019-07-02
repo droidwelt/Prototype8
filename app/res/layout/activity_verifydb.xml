@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:src="@drawable/ic_launcher"
+        tools:ignore="ContentDescription"  />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="12dp"
+            android:text="База сообщений содержит записи с датой, превышающей выбранный Вами срок хранения записей. \n \n Нажав на соответствующую кнопку Вы можете удалить старые записи."
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/bt_vfy_0"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/rounded_button"
+            android:minHeight="30dp"
+            android:text="черновики"
+            tools:ignore="HardcodedText" />
+        
+        <Button
+            android:id="@+id/bt_vfy_2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rounded_button"
+            android:minHeight="30dp"
+            android:text="входящие"
+            tools:ignore="HardcodedText" />
+        
+        <Button
+            android:id="@+id/bt_vfy_3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rounded_button"
+            android:minHeight="30dp"
+            android:text="отправленные"
+            tools:ignore="HardcodedText" />
+        
+        <Button
+            android:id="@+id/bt_vfy_4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rounded_button"
+            android:minHeight="30dp"
+            android:text="исходящие"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>
