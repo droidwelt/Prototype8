@@ -1,0 +1,67 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="droidwelt.ru.rest_vm4.ui.activity.ClientInfoActivity">
+
+    <item
+        android:icon="@mipmap/ic_photo_menu"
+        android:title="@string/s_clientinfo_pictures"
+        android:titleCondensed="@string/s_clientinfo_pictures"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/mi_edit_picture_choice"
+                android:icon="@mipmap/ic_photo_choice"
+                android:orderInCategory="1"
+                android:title="@string/s_picture_choice"
+                android:titleCondensed="@string/s_picture_choice"
+                app:showAsAction="never|ifRoom|withText" />
+            <item
+                android:id="@+id/mi_edit_picture_takephoto"
+                android:icon="@mipmap/ic_photo"
+                android:orderInCategory="2"
+                android:title="@string/s_picture_take"
+                android:titleCondensed="@string/s_picture_take"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/mi_edit_picture_crop"
+                android:icon="@mipmap/ic_photo_crop"
+                android:orderInCategory="3"
+                android:title="@string/s_picture_crop"
+                android:titleCondensed="@string/s_picture_crop"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/mi_edit_picture_rotate_left"
+                android:icon="@mipmap/ic_photo_rotate_left"
+                android:orderInCategory="4"
+                android:title="@string/s_picture_rotate_left"
+                android:titleCondensed="@string/s_picture_rotate_left"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/mi_edit_picture_rotate_right"
+                android:icon="@mipmap/ic_photo_rotate_rigth"
+                android:orderInCategory="5"
+                android:title="@string/s_picture_rotate_right"
+                android:titleCondensed="@string/s_picture_rotate_right"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/mi_edit_picture_clear"
+                android:icon="@mipmap/ic_photo_clear"
+                android:orderInCategory="6"
+                android:title="@string/s_picture_clear"
+                android:titleCondensed="@string/s_picture_clear"
+                app:showAsAction="ifRoom|withText" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_clientinfo_save"
+        android:icon="@mipmap/ic_message_savedraft"
+        android:orderInCategory="200"
+        android:title="@string/s_contactinfo_save"
+        android:titleCondensed="@string/s_contactinfo_save"
+        app:showAsAction="ifRoom|withText" />
+
+
+</menu>

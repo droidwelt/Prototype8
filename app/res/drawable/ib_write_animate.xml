@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@mipmap/ib_write_05" />
+    <item android:duration="200" android:drawable="@mipmap/ib_write_04" />
+    <item android:duration="200" android:drawable="@mipmap/ib_write_03" />
+    <item android:duration="200" android:drawable="@mipmap/ib_write_02" />
+    <item android:duration="200" android:drawable="@mipmap/ib_write_01" />
+    <item android:duration="200" android:drawable="@mipmap/ib_write_00" />
+</animation-list>
