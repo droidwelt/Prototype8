@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="s_contactinfo_header">Контакт</string>
+    <string name="s_contactinfo_name">Название</string>
+    <string name="s_contactinfo_addr">Адрес</string>
+    <string name="s_contactinfo_phone">Телефон</string>
+    <string name="s_contactinfo_comment">Заметки</string>
+    <string name="s_contactinfo_save">Сохранить</string>
+
+</resources>

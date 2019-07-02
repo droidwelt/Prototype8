@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_prefix">APR8</string>
+    <string name="app_name">PROTO 8</string>
+    <string name="empty" />
+
+    <string name="navigation_drawer_open">Открыть</string>
+    <string name="navigation_drawer_close">Закрыть</string>
+
+    <string name="s_mainmenu_logout">Выйти (logout)</string>
+    <string name="s_mainmenu_about">О программе</string>
+    <string name="s_mainmenu_setting">Настройки</string>
+    <string name="s_mainmenu_register_db">Регистрация в системе</string>
+    <string name="s_mainmenu_register_ch">Проверить обновления</string>
+
+
+    <string name="action_pwd_ok">Добро пожаловать, </string>
+    <string name="action_no_user">Вход не осуществлён</string>
+    <string name="s_search">текст для поиска</string>
+    <string name="about_prog">Это демонстрационная программа,
+        показывающая возможности работы мобильного приложения с базой данных MS SQL Server</string>
+    <string name="about_prog2">www.altamix.ru</string>
+    <string name="action_devlist_isempty">Список получателей пуст</string>
+    <string name="s_wait">Подождите, пожалуйста…</string>
+
+    <string name="add_new">Новый</string>
+
+    <string name="s_pref_animation_title">Анимация</string>
+    <string name="s_pref_animation_summary">Эффект анимации</string>
+    <string name="s_pref_theme_title">Размер шрифтов</string>
+    <string name="s_pref_theme_summary">Выберите желаемый размер шрифтов</string>
+
+    <string name="s_confirm_logout">Хотите выйти ?</string>
+    <string name="dlg_prg_exit">Завершение работы</string>
+    <string name="dlg_prg_confirm">Завершить приложение ?</string>
+    <string name="dlg_prg_no">НЕТ</string>
+    <string name="dlg_prg_yes">ДА</string>
+    <string name="dlg_confirm_req">Необходимо подтверждение</string>
+    <string name="dlg_date_changed">Данные были изменены. Сохранить изменения ?</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_refresh_oplata">Обновить Платежи</string>
+    <string name="action_refresh_price">Обновить Прайс</string>
+    <string name="action_refresh_data">Обновить данные</string>
+
+    <string name="header_register_device">Регистрация устройства</string>
+    <string name="header_register_device_undo">Аннулирование регистрации</string>
+    <string name="header_reduce">Уменьшить разрешение</string>
+    <string name="header_client">Клиенты</string>
+    <string name="header_contact">Контакты</string>
+    <string name="header_inspect">Ревизия</string>
+    <string name="header_gallery">Галерея</string>
+    <string name="header_management">Менеджмент</string>
+    <string name="header_cltview">Карточка клиента</string>
+    <string name="header_oplat">Платежи</string>
+    <string name="header_price">Прайс</string>
+
+    <string name="report_tov_name">товар</string>
+    <string name="report_tov_cena">цена</string>
+    <string name="report_tov_ost">остаток</string>
+    <string name="report_tov_res">резерв</string>
+    <string name="report_opl_clt">клиент</string>
+    <string name="report_opl_sum">сумма</string>
+    <string name="report_opl_date">дата</string>
+    <string name="report_opl_name">номер</string>
+
+    <string name="report_tsk_comment">замечания</string>
+    <string name="report_tsk_comment_hint">вы можете записать Ваши замечания</string>
+
+    <string name="s_scanner_not_installed">Barcode Scanner не установлен</string>
+
+    <string name="report_cltview_oper">операция</string>
+    <string name="report_cltview_date">дата</string>
+    <string name="report_cltview_sum">сумма</string>
+    <string name="report_cltview_clt">клиент</string>
+    <string name="report_cltview_phone">телефон</string>
+    <string name="report_cltview_addr">адрес</string>
+    <string name="report_cltview_saldo">сальдо расчетов</string>
+
+    <string name="text_display_table">обновить</string>
+
+    <string name="action_exchangeitem">Обмен данными</string>
+    <string name="s_inspest_delete_confirm">Удалить эту запись ?</string>
+    <string name="s_time_not_defined">время неизвестно</string>
+    <string name="s_lastload">"последняя загрузка - "</string>
+    <string name="s_tovar_not_found">Товар не найден</string>
+    <string name="s_insp_noname">Не указано даже название, нельзя записывать</string>
+    <string name="s_respondent_list_reloaded">Список респондентов и их устройств обновлён</string>
+    <string name="s_setting_programm">Настройки программы</string>
+    <string name="s_setting_messages">Настройки сообщений</string>
+    <string name="s_reg_fcm">"Регистрационный код  устройства  - "</string>
+    <string name="s_reg_model">"Модель устройства - "</string>
+    <string name="s_reg_registred">"Устройство зарегистрировано"</string>
+    <string name="s_reg_notregistred">Устройство не зарегистрировано</string>
+    <string name="s_db_create">Создается локальная база данных</string>
+
+
+</resources>

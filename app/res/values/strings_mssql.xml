@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="s_internet_connection_not_available">Нет подключения к Интернет</string>
+    <string name="s_server_adress_invalid">Недопустимый адрес сервера</string>
+    <string name="s_error_api">Не удалось выполнить запрос</string>
+    <string name="s_getting_json_message">Получение и обработка данных</string>
+    <string name="s_setting_json_message">Обработка и сохранение данных</string>
+    <string name="s_enter_login">Введите код доступа</string>
+    <string name="s_wrong_code">Введённый код не принят</string>
+    <string name="s_wellcome_login">Добро пожаловать, </string>
+    <string name="s_wellcome_login2">\nПожалуйста, повторите операцию</string>
+
+    <string name="s_dlg_confirm_appupdate_title">Обновление приложения</string>
+    <string name="s_dlg_confirm_appupdate_text1">На устройстве установлена версия приложения</string>
+    <string name="s_dlg_confirm_appupdate_text2">Обнаружена новая версия приложения</string>
+    <string name="s_dlg_confirm_appupdate_text3">Хотите обновить приложение ?</string>
+    <string name="s_dlg_lastversion_text1">На устройстве установлена последняя версия приложения</string>
+    <string name="s_appupdate_loading_error">Не удалось загрузить новую версию приложения</string>
+    <string name="s_error">Произошла ошибка</string>
+    <string name="s_update_app">Обновление приложения…</string>
+    <string name="s_error_file_not_exist">Не обнаружен файл</string>
+    <string name="s_dlg_lastversion_text2">Обновление не требуется</string>
+
+    <string name="s_dlg_yes">Да</string>
+    <string name="s_dlg_no">Нет</string>
+    <string name="s_dlg_confirm">Необходимо подтверждение</string>
+    <string name="s_dlg_date_changed">Данные были изменены. Сохранить изменения ?</string>
+
+
+
+
+</resources>

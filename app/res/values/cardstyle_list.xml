@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation"> 
+	<string-array name="cardstyle_list">
+		<item>F - плоский дизайн</item>
+		<item>С - карточки</item>
+	</string-array>
+</resources>
